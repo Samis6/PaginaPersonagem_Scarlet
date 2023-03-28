@@ -175,6 +175,10 @@ a:hover {
   color: #900c3f;
 }
 
+#links li img{
+  vertical-align: middle;
+}
+
 #about{
 
   border-top: 3px solid #f4f4f4;
