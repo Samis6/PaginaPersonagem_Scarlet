@@ -190,9 +190,17 @@ a:hover {
   border: 0px;
 }
 
-#objetivos{
-  margin: 100px 500px 100px 500px;
+  #objetivos{
+    margin: 100px 500px 100px 500px;
+  }
+
+
+@media only screen and (max-width: 1400px) {
+  #objetivos {
+    margin: 15px; 
+  }
 }
+
 
 #banner{
   height: 250px;
