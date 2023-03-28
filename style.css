@@ -1,0 +1,288 @@
+
+@font-face {
+  font-family: 'Bangers';
+  src: url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+}
+
+
+body {
+ 
+  background-image: url("img/bg2.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #fff;
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d4d0c8;
+  color: #900c3f;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  border-top: 3px solid #f4f4f4;
+  border-left: 3px solid #f4f4f4;
+  border-right: 3px solid #848484;
+  border-bottom: 3px solid #848484;
+  box-shadow: 1px 1px 1px #424242;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: #d4d0c8;
+  color: #900c3f;
+  border-top: 3px solid #848484;
+  border-left: 3px solid #848484;
+  border-right: 3px solid #f4f4f4;
+  border-bottom: 3px solid #f4f4f4;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-top: 3px solid #848484;
+  border-left: 3px solid #848484;
+  border-right: 3px solid #f4f4f4;
+  border-bottom: 3px solid #f4f4f4;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.containertext{
+  justify-content: center;
+  display: flex;
+}
+
+.gifstitle {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 10px;
+  margin-top: -10px;
+}
+
+
+p {
+  margin: 40px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+h3 {
+  font-family: 'Comic Sans MS', sans-serif;
+  animation: comic-sans-animation 2s linear infinite;
+}
+
+
+.tv {
+  position: relative;
+  height: 400px; /* altura desejada para a seção */
+
+  /* centralizando as imagens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundtv {
+  position: absolute;
+  z-index: 1;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: -25px;
+  
+}
+
+
+.overlay {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+
+#objetivos ul {
+  list-style-type: disc;
+  list-style-type: disc;
+  margin: 50px 0 0 0;
+  padding: 0;
+  text-align: left;
+  font-size: 22px;
+}
+
+
+li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  display: inline-block;
+  margin: 10px;
+  display: block;
+}
+
+a {
+  color: #000;
+  background-color: #d4d0c8;
+  font-family: 'Bangers', sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #d4d0c8;
+  color: #900c3f;
+}
+
+#about{
+
+  border-top: 3px solid #f4f4f4;
+  border-left: 3px solid #f4f4f4;
+  border-right: 3px solid #848484;
+  border-bottom: 3px solid #848484;
+  box-shadow: 1px 1px 1px #424242;
+}
+
+#biografia{
+  padding: 100px;
+  margin: 0;
+  border: 0px;
+}
+
+#objetivos{
+  margin: 100px 500px 100px 500px;
+}
+
+#banner{
+  height: 250px;
+  background-image: url("img/Banner.jpg");
+  background-size: contain;
+  margin: 0;
+  border: 0;
+}
+
+
+#familia {
+  background-image: url("img/marvel-retro-wall.jpg");
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+  height: 600px;
+  margin: 0;
+
+}
+
+#familia h2{
+  padding: 30px;
+  background-color: #900c3f;
+  border: 3px double red;
+}
+
+.familiatodos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
+
+.familia-membros {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #900c3f;
+  border: 3px double red;
+  box-shadow: 1px 1px 1px #424242;
+  
+}
+
+
+.familia-membros img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.familia-membros h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.familia-membros p {
+  font-size: 1rem;
+  color:aqua;
+  margin-top: 5px;
+}
+
+
+.animacao{
+  height: 150px;
+}
+
+@keyframes comic-sans-animation {
+  0% {
+    font-size: 20px;
+    transform: rotate(0deg);
+  }
+  25% {
+    font-size: 30px;
+    transform: rotate(5deg);
+  }
+  50% {
+    font-size: 20px;
+    transform: rotate(0deg);
+  }
+  75% {
+    font-size: 30px;
+    transform: rotate(-5deg);
+  }
+  100% {
+    font-size: 20px;
+    transform: rotate(0deg);
+  }
+}
+
